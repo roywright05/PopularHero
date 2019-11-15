@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background2"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Main2Activity">
 
     <RelativeLayout
         android:id="@+id/top_banner"
@@ -32,7 +32,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        android:text="@string/first"
+        android:text="@string/last"
         android:textColor="#000"
         android:textSize="36sp" />
 
@@ -51,7 +51,7 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/superman1978" />
+                android:src="@drawable/spiderman2014" />
 
 
             <LinearLayout
@@ -67,7 +67,7 @@
                     android:padding="7dp"
                     android:layout_gravity="center_horizontal"
                     android:textColor="@color/black"
-                    android:text="@string/supes"
+                    android:text="@string/spidey"
                     android:textSize="@dimen/text_22" />
 
                 <TextView
@@ -76,7 +76,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:textColor="@color/black"
-                    android:text="@string/score_16"
+                    android:text="@string/score_22"
                     android:textSize="@dimen/text_22" />
 
             </LinearLayout>
@@ -93,7 +93,7 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/spiderman2004" />
+                android:src="@drawable/batman2012" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -105,10 +105,10 @@
                     android:id="@+id/tv_silver"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="7dp"
                     android:layout_gravity="center_horizontal"
                     android:textColor="@color/black"
-                    android:padding="7dp"
-                    android:text="@string/spidey"
+                    android:text="@string/batman"
                     android:textSize="@dimen/text_22" />
 
                 <TextView
@@ -117,7 +117,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:textColor="@color/black"
-                    android:text="@string/score_14"
+                    android:text="@string/score_18"
                     android:textSize="@dimen/text_22" />
 
             </LinearLayout>
@@ -134,7 +134,7 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/batman2004" />
+                android:src="@drawable/superman2006" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -146,10 +146,10 @@
                     android:id="@+id/tv_bronze"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="7dp"
                     android:layout_gravity="center_horizontal"
                     android:textColor="@color/black"
-                    android:padding="7dp"
-                    android:text="@string/batman"
+                    android:text="@string/supes"
                     android:textSize="@dimen/text_22" />
 
                 <TextView
@@ -157,7 +157,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:textColor="@color/black"
-                    android:text="@string/score_11"
+                    android:text="@string/score_8"
                     android:textSize="@dimen/text_22" />
 
             </LinearLayout>
@@ -170,21 +170,18 @@
             android:padding="10dp">
 
             <Button
-                android:id="@+id/btn_next"
+                android:id="@+id/btn_to_home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="#1089ff"
-                android:text="Go: 2009"
+                android:text="Go: 2006"
                 android:textColor="#f6f078" />
 
         </TableRow>
 
 
     </TableLayout>
-
-
-
 
 </LinearLayout>
 

@@ -1,4 +1,31 @@
 <resources>
     <string name="app_name">PopularHero</string>
     <string name="title">Popularity</string>
+    <string name="first">2006</string>
+    <string name="second">2009</string>
+    <string name="third">2012</string>
+    <string name="fourth">2015</string>
+    <string name="last">2018</string>
+
+<!--    Hero Names-->
+
+    <string name="batman">Batman</string>
+    <string name="spidey">Spider-man</string>
+    <string name="supes">Superman</string>
+    <string name="ironman">Iron Man</string>
+    <string name="score_16">16</string>
+    <string name="score_14">14</string>
+    <string name="score_11">11</string>
+    <string name="score_21">21</string>
+    <string name="score_13">13</string>
+    <string name="score_37">37</string>
+    <string name="score_15">15</string>
+    <string name="score_38">38</string>
+    <string name="score_19">19</string>
+    <string name="score_12">12</string>
+    <string name="score_22">22</string>
+    <string name="score_18">18</string>
+    <string name="score_8">8</string>
+
+
 </resources>
