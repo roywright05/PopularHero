@@ -1,6 +1,6 @@
-package com.example.popularhero.model;
+package com.example.popularhero.presenter;
 
-import com.example.popularhero.presenter.Post;
+import com.example.popularhero.model.Post;
 
 import java.util.List;
 

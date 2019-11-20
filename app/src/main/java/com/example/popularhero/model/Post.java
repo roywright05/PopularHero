@@ -1,4 +1,4 @@
-package com.example.popularhero.presenter;
+package com.example.popularhero.model;
 
 public class Post {
 

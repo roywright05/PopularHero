@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.popularhero.R;
-import com.example.popularhero.model.JsonPlaceHolderApi;
-import com.example.popularhero.presenter.Post;
+import com.example.popularhero.presenter.JsonPlaceHolderApi;
+import com.example.popularhero.model.Post;
 
 import java.util.List;
 
@@ -22,7 +22,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity extends AppCompatActivity {
 
     //private Button btn;
-    public static final String BASE_URL = "https://bitbucket.org/dttden/mobile-coding-challenge/raw/2ee8bd47703c62c5d217d9fb9e0306922a34e581/";
+    public static final String BASE_URL
+            = "https://bitbucket.org/dttden/mobile-coding-challenge/raw/2ee8bd47703c62c5d217d9fb9e0306922a34e581/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
