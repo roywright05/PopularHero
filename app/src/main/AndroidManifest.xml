@@ -11,11 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main5Activity" android:parentActivityName=".Main4Activity"></activity>
-        <activity android:name=".Main4Activity" android:parentActivityName=".Main3Activity"/>
-        <activity android:name=".Main3Activity" android:parentActivityName=".Main2Activity" />
-        <activity android:name=".Main2Activity" android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.Main5Activity" android:parentActivityName=".view.Main4Activity"></activity>
+        <activity android:name=".view.Main4Activity" android:parentActivityName=".view.Main3Activity"/>
+        <activity android:name=".view.Main3Activity" android:parentActivityName=".view.Main2Activity" />
+        <activity android:name=".view.Main2Activity" android:parentActivityName=".view.MainActivity" />
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

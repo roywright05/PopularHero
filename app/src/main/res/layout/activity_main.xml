@@ -6,8 +6,11 @@
     android:layout_height="match_parent"
     android:background="@drawable/background2"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <RelativeLayout
         android:id="@+id/top_banner"
         android:layout_width="match_parent"
@@ -184,6 +187,7 @@
     </TableLayout>
 
 
+    </androidx.core.widget.NestedScrollView>
 
 
 </LinearLayout>

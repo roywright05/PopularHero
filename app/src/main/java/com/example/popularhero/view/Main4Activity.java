@@ -1,4 +1,4 @@
-package com.example.popularhero;
+package com.example.popularhero.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,29 +7,30 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Main5Activity extends AppCompatActivity {
+import com.example.popularhero.R;
+
+public class Main4Activity extends AppCompatActivity {
 
     private Button btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main5);
+        setContentView(R.layout.activity_main4);
 
-        btn = findViewById(R.id.btn_to_home);
+        btn = findViewById(R.id.btn_to_five);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goToHome();
+                goTo2018();
             }
         });
-
-
     }
 
-    public void goToHome(){
+    public void goTo2018(){
 
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, Main5Activity.class);
 
         startActivity(intent);
     }
