@@ -8,9 +8,6 @@
     android:orientation="vertical"
     tools:context=".view.Main2Activity">
 
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
     <RelativeLayout
         android:id="@+id/top_banner"
@@ -186,9 +183,6 @@
 
 
     </TableLayout>
-
-    </androidx.core.widget.NestedScrollView>
-
 </LinearLayout>
 
 
